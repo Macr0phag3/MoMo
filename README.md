@@ -10,6 +10,12 @@
 
 多线程利用的自然是生产者-消费者模型。实现得有点简陋，正好最近在线程进程这边补缺补漏，就当练手了吧。
 
+需要安装：
+
+`pip install termcolor`
+
+
+
 ## 运行示例
 
 ![example](https://github.com/Macr0phag3/MoMo/blob/master/PicForREADME/example.png)
