@@ -34,7 +34,7 @@ def getProxy(pnum):
 def autoVisit():
     global num, ProxyList, proxies, Num
 
-    url = 'http://www.maimemo.com/share/page/?uid=2520644&pid=1168'
+    url = '' #your article.
     headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 7.0; PLUS Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36'}
     
     while num < Num:
@@ -71,9 +71,9 @@ B = threading.Lock()
 print '-'*50  
 
 ProxyList = []
-num = 0
-pnum = 100
-Num = 40
+num = 0 #already visited
+pnum = 100 #proxies-num
+Num = 40 #visit-num
 
 p = threading.Thread(target=getProxy,args=(pnum,))
 
