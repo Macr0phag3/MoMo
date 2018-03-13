@@ -79,7 +79,7 @@ p = threading.Thread(target=getProxy,args=(pnum,))
 
 for i in range(pnum):
     t = threading.Thread(target=autoVisit,args=())
-    threads.append(t)
+    threads.append(t) 
 
 p.start()
 for t in threads:
