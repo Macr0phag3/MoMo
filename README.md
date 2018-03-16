@@ -10,11 +10,18 @@
 
 多线程利用的自然是生产者-消费者模型。实现得有点简陋，正好最近在线程进程这边补缺补漏，就当练手了吧。
 
+均在linux下运行（unix或许也行
+
 需要安装：
 
 `pip install termcolor`
 
+ MoMo-aiohttp.py在Py3.x下运行，需要安装aiohttp
 
+### 版本
+
+1. `MoMo.py` 自己实现的多线程访问
+2. `MoMo-aiohttp.py` 利用aiohttp实现的协程访问（在数量较小的情况下，和1差不多，但是数量上去了，差别会越来越大）
 
 ## 运行示例
 
