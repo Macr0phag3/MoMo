@@ -17,7 +17,7 @@
 `pip install termcolor`
 
  MoMo-aiohttp.py在Py3.x下运行，需要安装aiohttp
-
+ 
 ### 版本
 
 1. `MoMo.py` 自己实现的多线程访问
@@ -26,3 +26,10 @@
 ## 运行示例
 
 ![example](https://github.com/Macr0phag3/MoMo/blob/master/PicForREADME/example.png)
+
+ 在MoMo-aiohttp.py中，
+ async with session.get(url='', proxy='http://'+proxy, timeout=5) as resp: # Your url
+ url需要改，怎么获得这个呢？首先你打卡之后，要分享到空间去，然后点开这个分享，转发链接到“我的电脑“，然后你就能看到这个url，大概是这样：
+ https://www.maimemo.com/share/page/?uid=XXXXXXX&pid=1181
+ 其中pid是每天都+1的，uid就是你的墨墨UID，在“我的设置“中可以看到
+ 设置好了之后再跑跑看
