@@ -33,3 +33,6 @@
  https://www.maimemo.com/share/page/?uid=XXXXXXX&pid=1181
  其中pid是每天都+1的，uid就是你的墨墨UID，在“我的设置“中可以看到
  设置好了之后再跑跑看
+
+## 2018-08-24更新
+墨墨修改分享的 url 了，现在开始每天的文章用 `pid` 区分。uid 同样为墨墨UID。暂时没找到生成 pid 的方法，不过没事，每次运行改一下 pid 就行
