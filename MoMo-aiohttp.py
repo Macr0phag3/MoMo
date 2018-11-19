@@ -13,9 +13,9 @@ def getProxy(completion, TargetNum, proxynum, ProxyList):
     
     while 1:
         try:
-            url = 'http://www.66ip.cn/mo.php?tqsl=%s' %proxynum
+            url = 'http://www.89ip.cn/tqdl.html?num=%s' %proxynum
             html = get(url).text
-            proxies = set(re.findall('([0-9].+)<br />', html)) - set(ProxyList)
+            proxies = set(re.findall(r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]+", html)) - set(ProxyList)
 
             if not len(proxies): 
                 print('\n  [-]Waiting')
