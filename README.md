@@ -43,7 +43,7 @@ http://www.66ip.cn/mo.php?tqsl=100 这个免费 ip 地址，原来是在源码�
 ![](https://github.com/Macr0phag3/MoMo/blob/master/PicForREADME/2018-11-19_19-27-21.png)
 
 
-
+最多改一下地址与正则表达式就行了。
 
 
 
