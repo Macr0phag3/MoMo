@@ -15,7 +15,7 @@ def getProxy(pnum):
                 print '[+] %s' % colored('get proxy...', 'blue', attrs=['bold']),
                 while 1:
                     try:
-                        url = 'http://www.89ip.cn/tqdl.html?num=%s' % proxynum
+                        url = 'http://www.89ip.cn/tqdl.html?num=%s' % pnum
                         html = get(url).text
                         proxies = set(re.findall(
                             r"[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]+", html)) - set(ProxyList)
@@ -35,7 +35,7 @@ def getProxy(pnum):
 def autoVisit():
     global num, ProxyList, proxies, Num
 
-    url = ''  # your article.
+    url = 'http://www.baidu.com'  # your article.
     headers = {
         'user-agent': 'Mozilla/5.0 (Linux; Android 7.0; PLUS Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36'}
 
