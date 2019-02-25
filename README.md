@@ -42,8 +42,17 @@ http://www.66ip.cn/mo.php?tqsl=100 这个免费 ip 地址，原来是在源码�
 
 ![](https://github.com/Macr0phag3/MoMo/blob/master/PicForREADME/2018-11-19_19-27-21.png)
 
-
 最多改一下地址与正则表达式就行了。
+
+## 2019.02.25 20:31:05 更新
+如果出现以下报错，请关闭系统的代理再试一下。
+```
+» python MoMo-aiohttp.py
+[+] get proxy...
+  [-]Error: HTTPConnectionPool(host='127.0.0.1', port=7890): Max retries exceeded with url: http://www.89ip.cn/tqdl.html?num=100 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+```
+
+
 
 
 
