@@ -55,6 +55,9 @@ http://www.66ip.cn/mo.php?tqsl=100 这个免费 ip 地址，原来是在源码�
   [-]Error: HTTPConnectionPool(host='127.0.0.1', port=7890): Max retries exceeded with url: http://www.89ip.cn/tqdl.html?num=100 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
 ```
 
+## 2019-07-15 13:42:22 更新
+
+根据反馈，本工具已经失效~ 估计是墨墨修改机制了~
 
 
 
